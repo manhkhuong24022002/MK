@@ -10,13 +10,11 @@ html {
     font-size: 62.5%;
 }
 
-
 body {
-    font-family: "Rubik", "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter",
-        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-        "Helvetica Neue", sans-serif;
+    font-family: 'Rubik', 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Oxygen', 'Ubuntu',
+        'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.6rem;
-    background-color: #F3F3F3;
+    background-color: #f3f3f3;
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -moz-osx-font-smoothing: grayscale;
@@ -43,9 +41,9 @@ button {
 }
 
 button,
-button[type="submit"],
-input[type="submit"],
-button[type="button"] {
+button[type='submit'],
+input[type='submit'],
+button[type='button'] {
     -webkit-appearance: none;
     -moz-appearance: none;
     -ms-appearance: none;
@@ -55,28 +53,21 @@ button[type="button"] {
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-        monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 /* width */
 div::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
 }
 
 /* Track */
 div::-webkit-scrollbar-track {
-    background: #F5F5F5;
+    background: #333;
 }
 
 /* Handle */
 div::-webkit-scrollbar-thumb {
-    background: #dfe0e0;
+    background: #424242;
     border-radius: 10px;
-}
-
-/* Handle on hover */
-div::-webkit-scrollbar-thumb:hover {
-    background: #ccc;
-    cursor: pointer;
 }

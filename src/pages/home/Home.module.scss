@@ -1,3 +1,73 @@
 .home {
-  height: 500px;
+    // height: 500px;
+    // background-color: ;
+    display: flex;
+    color: #fff;
+
+    &__title {
+        background-color: #0d0d0d;
+        height: 100vh;
+        &__newchat {
+            width: 20rem;
+            padding-top: 1rem;
+            position: fixed;
+        }
+        &__chatbox {
+            width: 22rem;
+            margin: 0 auto;
+            padding-top: 1.5rem;
+            height: 100vh;
+            overflow-y: auto;
+
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+
+            .wrap {
+                padding: 0 1rem;
+                margin-top: 4rem;
+            }
+        }
+    }
+    &__content {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        background-color: #333;
+
+        &__nav {
+            height: 5rem;
+            background-color: #333;
+            width: 100%;
+            position: fixed;
+            left: 0+22rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            & > h5 {
+                font-size: 20px;
+                font-weight: 400;
+                margin-left: 3rem;
+            }
+        }
+        &__wrap {
+            width: 60rem;
+            // margin-bottom: 5rem;
+            margin-top: 6rem;
+            height: calc(100vh - 12vh - 10rem);
+            overflow: auto;
+        }
+        &__input {
+            width: 100%;
+            margin: 0 auto;
+            position: fixed;
+            bottom: 0;
+            height: 12vh;
+            display: flex;
+            justify-content: center;
+            z-index: 100;
+        }
+    }
 }
