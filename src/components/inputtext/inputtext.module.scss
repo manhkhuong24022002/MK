@@ -1,10 +1,23 @@
-input {
-    width: 65rem;
-    padding: 1.5rem 1rem;
-    height: 5rem;
+.inputContainer {
     border: 1px solid #e3e3e3;
     border-radius: 10px;
-    background-color: var(--gray-300);
-    font-size: 15px;
-    color: #fff;
+    display: flex;
+    height: 5rem;
+    align-items: center;
+    padding: 0 2rem;
+    width: 65rem;
+    input {
+        width: 100%;
+        padding: 1.5rem 1rem;
+        height: 100%;
+        list-style: none;
+        background-color: var(--gray-300);
+        font-size: 15px;
+        color: #fff;
+        border: none;
+    }
+    .sendButton {
+        // padding-right: rem;
+        cursor: pointer;
+    }
 }

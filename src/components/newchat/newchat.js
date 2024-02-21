@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classes from './newchat.module.scss';
 import icon from '../../assets/imgs/icon.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPenToSquare } from '@fortawesome/free-regular-svg-icons';
 
 function Newchat() {
+  const [listChat, setListChat] = useState(null);
   return (
     <div className={classes.container}>
       <div className={classes.container__wrap}>
